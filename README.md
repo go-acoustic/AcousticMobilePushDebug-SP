@@ -1,2 +1,2 @@
 # AcousticMobilePushDebug-SP
-Swift package for AcousticMobilePushDebug debug iOS library.
+Swift package for AcousticMobilePush debug version of iOS library.
