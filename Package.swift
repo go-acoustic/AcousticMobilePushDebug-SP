@@ -12,7 +12,7 @@
 
 import PackageDescription
 
-print("Using AcousticMobilePushdebug version, if you need release version use https://github.com/Acoustic-Mobile-Push/AcousticMobilePush-SP")
+print("Using AcousticMobilePush debug version, if you need release version use https://github.com/Acoustic-Mobile-Push/AcousticMobilePush-SP")
 let package = Package(
     name: "AcousticMobilePush",
     platforms: [
@@ -34,7 +34,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "AcousticMobilePush",
-            url: "https://github.com/Acoustic-Mobile-Push/iOS/releases/download/3.8.16/AcousticMobilePush_XCFramework_Debug.zip",
-            checksum: "bb001c99c48f79b4bdae9966ba737f215a268b06671c44bfc7f17b6f263816fa"),
+            url: "https://github.com/Acoustic-Mobile-Push/iOS/releases/download/3.8.17/AcousticMobilePush_XCFramework_Debug.zip",
+            checksum: "ef19d5b3b6603c9763d182010ba0c85d5dcb6c0351ac79c5db434b6785b3210c"),
     ]
 )
