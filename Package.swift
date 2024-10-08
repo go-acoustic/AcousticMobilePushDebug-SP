@@ -16,7 +16,7 @@ print("Using AcousticMobilePush debug version, if you need release version use h
 let package = Package(
     name: "AcousticMobilePush",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -34,7 +34,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "AcousticMobilePush",
-            url: "https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS/releases/download/3.9.33/AcousticMobilePush_XCFramework_Debug.zip",
-            checksum: "336cfcfa612a7566519fc6d5c8bfceccfd41be73230e6ec97c8e12b27874f21e"),
+            url: "https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS/releases/download/3.9.35/AcousticMobilePush_XCFramework_Debug.zip",
+            checksum: "4428333a6f8de0a55e2c83a4a4f9a63887fb1f98989da5abcfd09768adf0b4d9"),
     ]
 )
