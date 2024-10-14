@@ -34,7 +34,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "AcousticMobilePush",
-            url: "https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS/releases/download/3.9.42/AcousticMobilePush_XCFramework_Debug.zip",
-            checksum: "bb63dd97c48f6efb49c88530f6c4b18fb5121bcb4b67de6863f952064b31ccb4"),
+            url: "https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS/releases/download/3.9.43/AcousticMobilePush_XCFramework_Debug.zip",
+            checksum: "e73bef420fc16182258bf0d0cba40957883549d49fca5e94a942139fd497478c"),
     ]
 )
