@@ -2,7 +2,7 @@
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-// Copyright (C) 2025 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2026 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -34,7 +34,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "AcousticMobilePush",
-            url: "https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS/releases/download/3.10.5/AcousticMobilePush_XCFramework_Debug.zip",
-            checksum: "cbe3cb5f28b7d3bfaf62c9e668975ba44682ea668364d4f6afe7a4e75421453c"),
+            url: "https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS/releases/download/3.10.6/AcousticMobilePush_XCFramework_Debug.zip",
+            checksum: "480596ed4e8fe4fccae8fb5af036017912c69ac606316653578000d7f24f6c6b"),
     ]
 )
